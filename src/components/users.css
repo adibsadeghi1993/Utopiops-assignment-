@@ -1,0 +1,33 @@
+.users-posts {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.posts {
+  grid-column: 2/3;
+  background-color: rgb(195, 125, 84);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.allUser {
+  grid-column: 1/2;
+}
+
+.singleUser {
+  background-color: #a3b8c0;
+
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.singleUser h3 {
+  text-decoration: none;
+}
+.postsTitle{
+  width: 80%;
+  background-color: #EBF4FD;
+  padding: 5px;
+  border-radius: 7px;
+  text-align: center;
+}
